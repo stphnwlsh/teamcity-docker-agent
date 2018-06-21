@@ -16,7 +16,7 @@ docker pull jetbrains/teamcity-minimal-agent
 docker tag jetbrains/teamcity-minimal-agent teamcity-minimal-agent
 ```
 
-If you want to start with your own base agent image, see our [instructions](https://github.com/JetBrains/teamcity-docker-minimal-agent) on how to build it.
+If you want to start with your own base agent image, see our [instructions](https://github.com/stphnwlsh/teamcity-docker-minimal-agent) on how to build it.
 If you change the operation system, update the following line in the in Dockerfile appropriately:  
 ```
 apt-get install -y docker-engine=1.13.0-0~ubuntu-xenial
@@ -27,4 +27,4 @@ apt-get install -y docker-engine=1.13.0-0~ubuntu-xenial
 docker build -t teamcity-agent
 ```
 
-See our [detailed instructions](https://hub.docker.com/r/jetbrains/teamcity-agent/) on how to use the image in the Docker Hub repository.
+See our [detailed instructions](https://hub.docker.com/r/stphnwlsh/teamcity-agent/) on how to use the image in the Docker Hub repository.
