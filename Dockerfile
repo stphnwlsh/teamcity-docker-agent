@@ -1,4 +1,4 @@
-FROM teamcity-minimal-agent:latest-windowsservercore-1709 AS tools
+FROM jetbrains/teamcity-minimal-agent:latest-windowsservercore-1709 AS tools
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
